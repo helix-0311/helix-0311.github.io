@@ -1,0 +1,29 @@
+# Site settings. GitHub Pages reads this file and builds the site.
+# Change the title and description to what you want.
+
+title: MBAT Development Log
+description: >-
+  Notes on building MBAT, a single-player tactical wargame of
+  battlesuits on a hex grid. Decisions, dead ends and idle thoughts.
+author: helix-0311
+
+# For a repo named helix-0311.github.io, keep baseurl empty.
+# For any other repo name (for example "devblog"), set baseurl: "/devblog".
+url: "https://helix-0311.github.io"
+baseurl: ""
+
+# One of GitHub's built-in themes. Plain, readable, no setup.
+theme: minima
+
+# The links in the page header.
+header_pages:
+  - about.md
+
+# Show the first paragraph of each post on the front page.
+show_excerpts: true
+
+# Files that are in the repo but are not part of the site.
+exclude:
+  - POSTING.md
+  - README.md
+  - drafts/
