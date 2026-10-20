@@ -19,6 +19,11 @@ theme: minima
 header_pages:
   - about.md
 
+# Each post lives at /<slug>/ (the slug is the file name after the date).
+# One folder deep, so ../assets/... in a post works both on the site and
+# in a local Markdown viewer.
+permalink: /:title/
+
 # Show the first paragraph of each post on the front page.
 show_excerpts: true
 

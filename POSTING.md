@@ -29,7 +29,25 @@ anything you are not ready to reveal off this repo entirely.
 
 ## Add an image
 
-Put the file in `assets/` and reference it as `/assets/name.png`.
+Put the files in a folder for the post, for example
+`assets/images/2026-10-25-why-d100/`. Use no spaces in file names, and match
+their capitals exactly in the post (the site is case-sensitive). Then,
+in the post:
+
+```
+![What the picture shows](../assets/images/2026-10-25-why-d100/map.png)
+```
+
+Start the path with `../`, not `/`. With `../` the picture shows both on
+the site and in a local Markdown viewer. A leading `/` works on the site
+only, because a local viewer reads it as the root of the C: drive.
+
+Keep each file under about 500 KB (JPG, about 1600 px wide) so the page
+loads fast on a phone.
+
+A post's address is `https://helix-0311.github.io/<slug>/`, where the
+slug is the file name after the date (`why-d100`). Renaming a published
+post's file changes its address.
 
 ## Change how the site looks
 
